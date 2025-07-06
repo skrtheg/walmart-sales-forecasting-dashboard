@@ -27,4 +27,4 @@ COPY . .
 EXPOSE 8501
 
 # Use the entrypoint script
-CMD ["streamlit", "run", "app.py"]
+CMD ["uv","run","streamlit", "run", "app.py"]
