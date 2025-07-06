@@ -12,8 +12,6 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Data files (if large or sensitive)
-data/
-*.csv
 *.xlsx
 *.json
 
