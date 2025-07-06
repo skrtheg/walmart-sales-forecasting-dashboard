@@ -1,0 +1,37 @@
+# Virtual environment
+.venv/
+env/
+*.env
+.env.*
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Data files (if large or sensitive)
+data/
+*.csv
+*.xlsx
+*.json
+
+# Trained models (if large)
+models/
+*.joblib
+*.pkl
+*.h5
+
+# Logs
+logs/
+*.log
+
+# Streamlit specific
+.streamlit/
+
+# Ignore API/cache and secrets for weather/trends
+.pytrends-cache/
+weather_cache.json
+trends_cache.json
+.env

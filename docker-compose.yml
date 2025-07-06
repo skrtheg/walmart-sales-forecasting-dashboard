@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  walmart-app:
+    build: .
+    container_name: walmart_sales_forecasting
+    ports:
+      - "8501:8501"
+    environment:
+      - STREAMLIT_SERVER_HEADLESS=true
+      - STREAMLIT_SERVER_PORT=8501
+      - STREAMLIT_SERVER_ENABLECORS=false
+    volumes:
+      - .:/app
+    restart: unless-stopped
